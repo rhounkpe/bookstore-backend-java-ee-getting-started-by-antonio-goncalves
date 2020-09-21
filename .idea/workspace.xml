@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f8c5f20-32d7-4c36-8f7b-e8b75abaab81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -235,7 +233,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600699196099</updated>
       <workItem from="1600699197187" duration="2860000" />
-      <workItem from="1600703403812" duration="3780000" />
+      <workItem from="1600703403812" duration="5710000" />
     </task>
     <servers />
   </component>
@@ -270,22 +268,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="273" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705291796" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1600707023621">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1600707369920">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1600707023621">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1600707369920">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1600707023621">
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1600707369920">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1600707023621">
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1600707369920">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
     <state x="2360" y="94" key="SettingsEditor" timestamp="1600705532047">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
