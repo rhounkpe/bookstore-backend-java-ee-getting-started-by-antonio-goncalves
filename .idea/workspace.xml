@@ -10,14 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f8c5f20-32d7-4c36-8f7b-e8b75abaab81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,11 +39,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1hpDZE4P98h2doFuVmx6Bu1cUPz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -42,6 +55,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pluralsight.bookstore.model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
@@ -214,12 +235,15 @@
       <option name="presentableId" value="Default" />
       <updated>1600699196099</updated>
       <workItem from="1600699197187" duration="2860000" />
-      <workItem from="1600703403812" duration="1084000" />
+      <workItem from="1600703403812" duration="3780000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2664" y="423" key="#JBoss_Server" timestamp="1600701939989">
@@ -230,25 +254,41 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600702237370" />
-    <state x="2660" y="273" key="FileChooserDialogImpl" timestamp="1600702005894">
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600706313409">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="273" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600702005894" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600702611813">
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600706313409" />
+    <state x="2610" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1600705843151">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600702611813" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600702611813">
+    <state x="2610" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705843151" />
+    <state x="2412" y="426" width="1037" height="186" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1600705521630">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600702611813" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600702611813">
+    <state x="2412" y="426" width="1037" height="186" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705521630" />
+    <state x="2660" y="273" key="FileChooserDialogImpl" timestamp="1600705291796">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600702611813" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600702611813">
+    <state x="2660" y="273" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705291796" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1600707023621">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600702611813" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1600707023621">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1600707023621">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1600707023621">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707023621" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1600705532047">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705532047" />
   </component>
 </project>
