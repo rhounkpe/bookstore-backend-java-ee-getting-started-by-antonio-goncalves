@@ -5,11 +5,11 @@ import com.pluralsight.bookstore.repository.BookRepository;
 
 import javax.inject.Inject;
 import javax.validation.constraints.Min;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
+import java.net.URI;
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
@@ -33,13 +33,19 @@ public class BookEndpoint {
         return Response.ok(book).build();
     }
 
-
-    public Book createBook(Book book) {
-        return bookRepository.create(book);
+    @POST
+    @Consumes(APPLICATION_JSON)
+    public Response createBook(Book book, @Context UriInfo uriInfo) {
+        book = bookRepository.create(book);
+        URI createdURI = uriInfo.getBaseUriBuilder().path(book.getId().toString()).build();
+        return Response.created(createdURI).build();
     }
 
-    public void deleteBook(Long id) {
+    @DELETE
+    @Path("/{id : \\d+}")
+    public Response deleteBook(@PathParam("id") @Min(1) Long id) {
         bookRepository.delete(id);
+        return Response.noContent().build();
     }
 
     @GET
