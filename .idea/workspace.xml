@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f8c5f20-32d7-4c36-8f7b-e8b75abaab81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/rest/JAXRSConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response1.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -63,7 +64,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
@@ -83,6 +84,32 @@
       <recent name="com.pluralsight.bookstore.model" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/bookstore-back-1.0/api/books" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
       <set>
@@ -91,17 +118,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WildFly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20.0.1.Final1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk-14.0.2">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -257,7 +273,9 @@
       <workItem from="1600703403812" duration="11790000" />
       <workItem from="1600719011825" duration="183000" />
       <workItem from="1600784314967" duration="485000" />
-      <workItem from="1600861746332" duration="7174000" />
+      <workItem from="1600861746332" duration="8985000" />
+      <workItem from="1600879796281" duration="555000" />
+      <workItem from="1600880394813" duration="3680000" />
     </task>
     <servers />
   </component>
@@ -292,22 +310,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="273" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600862006955" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1600874993523">
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1600886421025">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600874993523" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1600874993523">
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600886421025" />
+    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1600886421024">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600874993523" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1600874993523">
+    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600886421024" />
+    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1600886421024">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600874993523" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1600874993523">
+    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600886421024" />
+    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1600886421025">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600874993523" />
+    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600886421025" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600878619684">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600878619684" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600878619684">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600878619684" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600878619683">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600878619683" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600878619684">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600878619684" />
     <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1600717749234">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -316,13 +350,17 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2596" y="320" width="567" height="437" key="RefactorJ.ExtractClass/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600870151506" />
-    <state x="2360" y="94" key="SettingsEditor" timestamp="1600862035311">
+    <state x="2360" y="94" width="1062" height="851" key="SettingsEditor" timestamp="1600880932459">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2360" y="94" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600862035311" />
+    <state x="2360" y="94" width="1062" height="851" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600880932459" />
     <state x="2638" y="278" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600717348912">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2638" y="278" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600717348912" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600886330891">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600886330891" />
   </component>
 </project>

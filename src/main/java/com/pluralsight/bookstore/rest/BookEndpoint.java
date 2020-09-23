@@ -40,7 +40,15 @@ public class BookEndpoint {
         return Response.ok(books).build();
     }
 
-    public Long countBooks() {
-        return bookRepository.countAll();
+    @GET
+    @Path("/count")
+    public Response countBooks() {
+        Long nbOfBooks = bookRepository.countAll();
+
+        if (nbOfBooks == 0) {
+            return Response.noContent().build();
+        }
+
+        return Response.ok(nbOfBooks).build();
     }
 }
