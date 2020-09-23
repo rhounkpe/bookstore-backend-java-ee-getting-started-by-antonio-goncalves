@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f8c5f20-32d7-4c36-8f7b-e8b75abaab81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/model/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +26,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -49,15 +53,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../Program Files/Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.pluralsight.bookstore.repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pluralsight.bookstore.model" />
     </key>
@@ -233,7 +247,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600699196099</updated>
       <workItem from="1600699197187" duration="2860000" />
-      <workItem from="1600703403812" duration="7011000" />
+      <workItem from="1600703403812" duration="11790000" />
+      <workItem from="1600719011825" duration="183000" />
+      <workItem from="1600784314967" duration="485000" />
+      <workItem from="1600861746332" duration="1551000" />
     </task>
     <servers />
   </component>
@@ -264,29 +281,37 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2412" y="426" width="1037" height="186" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705521630" />
-    <state x="2660" y="273" key="FileChooserDialogImpl" timestamp="1600705291796">
+    <state x="2660" y="273" key="FileChooserDialogImpl" timestamp="1600862006955">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="273" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705291796" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1600707369920">
+    <state x="2660" y="273" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600862006955" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1600718973095">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1600707369920">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600718973095" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1600718973094">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1600707369920">
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600718973094" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1600718973094">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1600707369920">
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600718973094" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1600718973095">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600707369920" />
-    <state x="2360" y="94" key="SettingsEditor" timestamp="1600705532047">
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600718973095" />
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1600717749234">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2360" y="94" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600705532047" />
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600717749234" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1600862035311">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600862035311" />
+    <state x="2638" y="278" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600717348912">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2638" y="278" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600717348912" />
   </component>
 </project>
