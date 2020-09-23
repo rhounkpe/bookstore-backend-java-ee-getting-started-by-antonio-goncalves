@@ -41,8 +41,9 @@ public class BookRepository {
         em.remove(em.getReference(Book.class, id));
     }
 
+
     public List<Book> findAll() {
-        TypedQuery<Book> query = em.createQuery("SELECT b FROM Book b ORDER BY b.title", Book.class);
+        TypedQuery<Book> query = em.createQuery("SELECT b FROM Book b ORDER BY b.title DESC", Book.class);
         return query.getResultList();
     }
 
